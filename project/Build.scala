@@ -14,8 +14,7 @@ object ProjectBuild extends Build {
       version := "1.0",
       scalaVersion := "2.10.2",
       resolvers += "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/",
-      resolvers += "restlet" at "http://maven.restlet.org",
-
+      resolvers += "restlet" at "http://maven.restlet.org"
 		       		    	      )
 			 )
 }
